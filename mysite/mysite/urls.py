@@ -20,3 +20,7 @@ urlpatterns = [
 	path('polls/', include('polls.urls')),
  	path('admin/', admin.site.urls),
 ]
+
+admin.site.site_header = 'My admin'
+admin.site.index_title = 'Admin'
+admin.site.site_title = 'My Site'
